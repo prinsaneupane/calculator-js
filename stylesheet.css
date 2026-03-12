@@ -1,0 +1,33 @@
+body {
+  background-color: #0f172a;
+}
+.card {
+  background-color: #ffffff;
+  border-radius: 1em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 380px;
+  overflow: hidden;
+}
+.calc {
+  background: linear-gradient(to bottom right, #f8fafc, #f1f5f9);
+  padding: 2rem;
+  min-height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.button {
+  height: 4em;
+  border-radius: 1em;
+  color: #334155;
+}
+.buttongrid {
+  background-color: #f1f5f9;
+
+  height: 4em;
+  border-radius: 1em;
+  color: #334155;
+}
+.buttongrid:hover {
+  background-color: #e2e8f0;
+}

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+  <body class="justify-center flex items-center h-screen">
+    <div class="card">
+      <div class="flex flex-col-2 calc">
+        <p class="text-right text-3xl"></p>
+      </div>
+      <div class="p-6 grid grid-cols-4 gap-3">
+        <button
+          class="button font-medium text-md bg-[#e2e8f0] hover:bg-slate-300"
+        >
+          AC
+        </button>
+        <button
+          class="button font-medium text-md bg-[#e2e8f0] hover:bg-slate-300"
+        >
+          <<
+        </button>
+        <button
+          class="button font-medium text-md bg-[#e2e8f0] hover:bg-slate-300"
+        >
+          %
+        </button>
+        <button
+          class="button font-medium text-md bg-[#3b82f6] hover:bg-blue-600 text-white"
+        >
+          ÷
+        </button>
+        <button class="buttongrid font-medium text-md">7</button>
+        <button class="buttongrid font-medium text-md">8</button>
+        <button class="buttongrid font-medium text-md">9</button>
+        <button
+          class="button font-medium text-md bg-[#3b82f6] hover:bg-blue-600 text-white"
+        >
+          ×
+        </button>
+        <button class="buttongrid font-medium text-md">4</button>
+        <button class="buttongrid font-medium text-md">5</button>
+        <button class="buttongrid font-medium text-md">6</button>
+        <button
+          class="button font-medium text-md bg-[#3b82f6] hover:bg-blue-600 text-white"
+        >
+          -
+        </button>
+        <button class="buttongrid font-medium text-md">1</button>
+        <button class="buttongrid font-medium text-md">2</button>
+        <button class="buttongrid font-medium text-md">3</button>
+        <button
+          class="button font-medium text-md bg-[#3b82f6] hover:bg-blue-600 text-white"
+        >
+          +
+        </button>
+        <button class="buttongrid col-span-2 font-medium text-md">0</button>
+        <button class="buttongrid font-medium text-md">.</button>
+        <button
+          class="button font-medium text-md bg-[#3b82f6] hover:bg-blue-600 text-white"
+        >
+          =
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
